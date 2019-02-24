@@ -1,0 +1,33 @@
+body {
+  color:rgb(0, 0, 0);
+  font-size: 16px;
+  transition: .4s;
+  text-align:center;
+}
+
+.button {
+  background-color:#5FC6E3;
+  border:none;
+  color:white;
+  padding: 16px 32px;
+  text-align:center;
+  text-decoration: none;
+  display: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+.getLocation {
+  border: 2px solid #5FC6E3;
+
+}
+.getLocation:hover {
+  color:black;
+  background-color: white;
+  color:#BEBEBE;
+}
+#map {
+  height:300px;
+}
+ (api key)
