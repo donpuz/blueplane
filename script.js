@@ -1,3 +1,7 @@
+setTimeout(function() {
+  location.reload();
+}, 600000);
+
 var x = document.getElementById("x");
 $(function(){
   $("button").click();
@@ -133,6 +137,12 @@ function initMap() {
     map: map,
     title: 'You Are Here'
 
+  });
+  var aeee = new google.maps.LatLng(42.3752, -71.1033);
+
+    var marker = new google.maps.Marker({
+      position:aeee,
+      map:map
   });
 
 
